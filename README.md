@@ -87,3 +87,7 @@ Then I just used this model to test track2, and just failed. So I just run track
 As there are so many sudden turns on track2, I found that the ```steering_angle``` predicted by the model used to be not sufficient enought for turn left/right. So I just increased this value 1.5 times higher and I succeed in turning these sudden turns.
 
 Finally, I just found that in my track2 trials, the car would stop in some place on the road even I restricted the throttle below 0.9. I re-run the test and finally the car finished its track2 challenge. I think it would be solved only if Udacity could provide more information for this speed control system.
+
+#### 6. Results:
+
+![png](./track2_usingDropout.gif)
